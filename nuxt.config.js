@@ -1,9 +1,15 @@
 import axios from 'axios';
-require('dotenv').config();
+///require('dotenv').config();
+
+
 
 export default {
   mode: 'universal',
-
+ 
+env: {
+  WORDPRESS_API_URL: 'https://headless.cnbcafrica.com/wp-json',
+  
+},
   head: {
     title: process.env.npm_package_name || '',
     meta: [
