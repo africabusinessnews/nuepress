@@ -62,7 +62,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://nuepress.kmr.io',
+    hostname: 'https://www.cnbcafrica.com',
     path: '/sitemap.xml',
     sitemaps: [
       {
